@@ -1,0 +1,1138 @@
+@charset "utf-8";
+
+/************************************************
+
+					etc_business
+
+*************************************************/
+.etc_business_area .content_img img {
+    max-width: 704px;
+}
+.etc_business_area .content_txt .content_txt_tit {
+    max-width: 294px;
+}
+
+/************************************************
+
+					family
+
+*************************************************/
+.family_area .content_img img {
+    max-width: 704px;
+}
+.family_area .content_txt .content_txt_tit {
+    max-width: 245px;
+}
+
+/************************************************
+
+					counseling_center
+
+*************************************************/
+.counseling_center_area .content_img img {
+    max-width: 694px;
+}
+.counseling_center_area .content_txt .content_txt_tit {
+    max-width: 319px;
+}
+.counseling_center_area .content_txt .counseling_center_txt {
+    margin: 0 0 27px 7.4%;
+    font-size: 1em;
+    color: #3f3f3f;
+    letter-spacing: -0.025em;
+    line-height: 1.667em;
+    -webkit-transform: skew(-0.05deg);
+	-moz-transform: skew(-0.05deg);
+	-ms-transform: skew(-0.05deg);
+	transform: skew(-0.05deg);
+}
+.counseling_center_area .content_txt .counseling_center_list>li {
+    width: 49%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.counseling_center_area .content_txt .counseling_center_list>li .content_txt_tit {
+    width: 83.6%;
+}
+.counseling_center_area .content_txt .counseling_center_list>li .counseling_center_txt {
+    margin: 0 0 27px 14.8%;
+}
+.counseling_center_area .content_txt .counseling_center_list>li .big {
+    margin: 0 0 19px 14.8%;
+}
+.counseling_center_area .content_txt .counseling_center_list>li .big_indent {
+    margin-left: 17.45% !important;
+}
+.counseling_center_area .content_txt .counseling_center_list>li .small {
+    margin: 0 0 29px 20.8%;
+}
+
+@media screen and (max-width: 1600px) {
+    .counseling_center_area .content_txt .counseling_center_txt {
+        margin: 0 0 25px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .counseling_center_txt {
+        margin: 0 0 25px 14.8%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .big {
+        margin: 0 0 17px 14.8%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .small {
+        margin: 0 0 27px 20.8%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .counseling_center_area .content_txt .counseling_center_txt {
+        margin: 0 0 23px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li {
+        width: 100%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .content_txt_tit {
+        width: 90.6%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .counseling_center_txt {
+        margin: 0 0 23px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .big {
+        margin: 0 0 15px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .big_indent {
+        margin-left: 10.05% !important;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .small {
+        margin: 0 0 25px 10.4%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .counseling_center_area .content_txt .counseling_center_txt {
+        margin: 0 0 21px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .content_txt_tit {
+        width: 87.6%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .counseling_center_txt {
+        margin: 0 0 21px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .big {
+        margin: 0 0 13px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .small {
+        margin: 0 0 23px 10.4%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .counseling_center_area .content_txt .counseling_center_list>li {
+        width: 49%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .content_txt_tit {
+        width: 83.6%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .counseling_center_txt {
+        margin: 0 0 21px 14.8%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .big {
+        margin: 0 0 13px 14.8%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .big_indent {
+        margin-left: 17.45% !important;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .small {
+        margin: 0 0 23px 20.8%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .counseling_center_area .content_txt .counseling_center_txt {
+        margin: 0 0 19px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li {
+        width: 100%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .content_txt_tit {
+        width: 87.6%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .counseling_center_txt {
+        margin: 0 0 19px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .big {
+        margin: 0 0 11px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .big_indent {
+        margin-left: 10.05% !important;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .small {
+        margin: 0 0 21px 10.4%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .counseling_center_area .content_txt .counseling_center_txt {
+        margin: 0 0 17px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .content_txt_tit {
+        width: 86.6%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .counseling_center_txt {
+        margin: 0 0 17px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .big {
+        margin: 0 0 9px 7.4%;
+    }
+    .counseling_center_area .content_txt .counseling_center_list>li .small {
+        margin: 0 0 19px 10.4%;
+    }
+}
+
+/************************************************
+
+					campaign
+
+*************************************************/
+.campaign_area .content_img img {
+    max-width: 704px;
+}
+.campaign_area>div.content_img {
+    vertical-align: middle;
+}
+.campaign_area>div.content_txt {
+    width: 45.7%;
+    margin-left: 4%;
+    vertical-align: middle;
+}
+.campaign_area .content_txt .content_txt_tit {
+    max-width: 293px;
+}
+
+@media screen and (max-width: 900px) {
+    .campaign_area>div.content_txt {
+        width: 100%;
+        margin: 0%;
+    }
+}
+
+/************************************************
+
+					combine_management
+
+*************************************************/
+.combine_management_area .content_img img {
+    max-width: 704px;
+}
+.combine_management_area>div.content_txt {
+    width: 45.7%;
+    margin-left: 4%;
+}
+.combine_management_area .content_txt .content_txt_tit {
+    max-width: 466px;
+    font-size: 1.222em;
+}
+
+@media screen and (max-width: 900px) {
+    .combine_management_area>div.content_txt {
+        width: 100%;
+        margin: 0%;
+    }
+}
+
+/************************************************
+
+					education
+
+*************************************************/
+.education_area .content_txt .content_txt_tit {
+    max-width: 319px;
+    font-size: 1.111em;
+}
+.education_area>div:first-child + div>article:first-child .content_txt_tit {
+    max-width: 466px;
+}
+.education_area .content_txt .education_tit {
+    font-size: 1.111em;
+    color: #3f3f3f;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.1em;
+    margin: 0 0 31px 9.4%;
+    -webkit-transform: skew(-0.05deg);
+	-moz-transform: skew(-0.05deg);
+	-ms-transform: skew(-0.05deg);
+	transform: skew(-0.05deg);
+}
+
+@media screen and (max-width: 1600px) {
+    .education_area .content_txt .education_tit {
+        margin: 0 0 29px 9.4%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .education_area .content_txt .education_tit {
+        margin: 0 0 27px 9.4%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .education_area .content_txt .education_tit {
+        margin: 0 0 25px 9.4%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .education_area .content_txt .education_tit {
+        margin: 0 0 23px 9.4%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .education_area .content_txt .education_tit {
+        margin: 0 0 21px 9.4%;
+    }
+}
+
+/************************************************
+
+					consignment_business
+
+*************************************************/
+.consignment_business_area .content_txt .content_txt_tit {
+    max-width: 293px;
+}
+.consignment_business_area>div:first-child + div {
+    margin-top: 67px;
+}
+.consignment_business_area .content_txt .consignment_business_table {
+    width: 91.6%;
+    height: auto;
+    margin: 0 0 19px 8.4%;
+}
+.consignment_business_area .content_txt .consignment_business_table thead tr {
+    border-top: 2px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}
+.consignment_business_area .content_txt .consignment_business_table tbody tr {
+    border-bottom: 1px solid #d7d7d7;
+}
+.consignment_business_area .content_txt .consignment_business_table tr {
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    font-size: 0.889em;
+    color: #3f3f3f;
+    letter-spacing: -0.025em;
+    line-height: 38px;
+    -webkit-transform: skew(-0.05deg);
+	-moz-transform: skew(-0.05deg);
+	-ms-transform: skew(-0.05deg);
+	transform: skew(-0.05deg);
+}
+.consignment_business_area .content_txt .consignment_business_table tr td {
+    border-left: 1px solid #d7d7d7;
+}
+.consignment_business_area .content_txt .consignment_business_table tr td:first-child {
+    border-left: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .consignment_business_area>div:first-child + div {
+        margin-top: 65px;
+    }
+    .consignment_business_area .content_txt .consignment_business_table {
+        margin: 0 0 17px 8.4%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .consignment_business_area>div:first-child + div {
+        margin-top: 59px;
+    }
+    .consignment_business_area .content_txt .consignment_business_table {
+        margin: 0 0 15px 8.4%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .consignment_business_area>div:first-child + div {
+        margin-top: 55px;
+    }
+    .consignment_business_area .content_txt .consignment_business_table {
+        margin: 0 0 13px 8.4%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .consignment_business_area>div:first-child + div {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .consignment_business_area .content_txt .consignment_business_table {
+        margin: 0 0 11px 8.4%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .consignment_business_area .content_txt .consignment_business_table {
+        margin: 0 0 9px 8.4%;
+    }
+}
+
+/************************************************
+
+					success_memoirs
+
+*************************************************/
+.success_memoirs_area .content_txt .content_txt_tit {
+    max-width: 319px;
+}
+
+/************************************************
+
+					nutrient_support
+
+*************************************************/
+.nutrient_support_area .content_txt .content_txt_tit {
+    max-width: 319px;
+}
+.nutrient_support_area>div:first-child + div>article:first-child {
+    margin-bottom: 113px;
+}
+.nutrient_support_area .content_txt .nutrient_support_table {
+    width: 92.5%;
+    height: auto;
+    margin: 0 0 19px 7.4%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #d7d7d7;
+}
+.nutrient_support_area .content_txt .nutrient_support_table thead tr {
+    width: 100%;
+    height: 66px;
+    background-color: #f9f9f9;
+}
+.nutrient_support_area .content_txt .nutrient_support_table tbody tr {
+    width: 100%;
+    height: 59px;
+    background-color: #ffffff;
+}
+.nutrient_support_area .content_txt .nutrient_support_table tr {
+    text-align: center;
+    font-size: 0.889em;
+    color: #3f3f3f;
+    letter-spacing: -0.025em;
+    line-height: 1.375em;
+    -webkit-transform: skew(-0.05deg);
+	-moz-transform: skew(-0.05deg);
+	-ms-transform: skew(-0.05deg);
+	transform: skew(-0.05deg);
+}
+.nutrient_support_area .content_txt .nutrient_support_table tr th {
+    vertical-align: middle;
+    /*border: 1px solid #d7d7d7;*/
+    border-left: 1px solid #d7d7d7;
+    padding: 10px;
+}
+.nutrient_support_area .content_txt .nutrient_support_table tr th:first-child {
+    border-left: none;
+}
+.nutrient_support_area .content_txt .nutrient_support_table tr td {
+    vertical-align: middle;
+    /*border: 1px solid #d7d7d7;*/
+    border-left: 1px solid #d7d7d7;
+    padding: 10px;
+}
+.nutrient_support_area .content_txt .nutrient_support_table tr td:first-child {
+    border-left: none;
+}
+
+@media screen and (max-width: 1800px) {
+    .nutrient_support_area>div:first-child + div>article:first-child {
+        margin-bottom: 87px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .nutrient_support_area>div:first-child + div>article:first-child {
+        margin-bottom: 106px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table {
+        margin: 0 0 17px 7.4%;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table thead tr {
+        height: 61px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tbody tr {
+        height: 54px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tr th {
+        padding: 9px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tr td {
+        padding: 9px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .nutrient_support_area>div:first-child + div>article:first-child {
+        margin-bottom: 102px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table {
+        margin: 0 0 15px 7.4%;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table thead tr {
+        height: 56px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tbody tr {
+        height: 49px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tr th {
+        padding: 8px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tr td {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nutrient_support_area>div:first-child + div>article:first-child {
+        margin-bottom: 118px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table {
+        margin: 0 0 13px 7.4%;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table thead tr {
+        height: 51px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tbody tr {
+        height: 44px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tr th {
+        padding: 7px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tr td {
+        padding: 7px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .nutrient_support_area>div:first-child + div>article:first-child {
+        margin-bottom: 96px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nutrient_support_area>div:first-child + div>article:first-child {
+        margin-bottom: 10px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table thead tr {
+        height: 46px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tbody tr {
+        height: 39px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tr th {
+        padding: 6px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tr td {
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nutrient_support_area .content_txt .nutrient_support_table {
+        margin: 0 0 11px 7.4%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nutrient_support_area .content_txt .nutrient_support_table {
+        margin: 0 0 9px 7.4%;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table thead tr {
+        height: 41px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tbody tr {
+        height: 34px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tr th {
+        padding: 5px;
+    }
+    .nutrient_support_area .content_txt .nutrient_support_table tr td {
+        padding: 5px;
+    }
+}
+
+/************************************************
+
+					pregnant_care
+
+*************************************************/
+.pregnant_care_area .content_txt .content_txt_tit {
+    max-width: 245px;
+}
+.pregnant_care_area .content_txt .pregnant_care_img {
+    width: 92.6%;
+    height: auto;
+    max-width: 704px;
+    margin: 0 0 19px 7.4%;
+}
+.pregnant_care_div .content_sub_tit .content_download {
+    padding: 9px 15px 11px 60px;
+}
+.pregnant_care_div .content_sub_tit .content_download span {
+    margin-right: 45px;
+}
+
+@media screen and (max-width: 1800px) {
+    .pregnant_care_div .content_sub_tit .content_download {
+        padding: 7px 13px 9px 55px;
+    }
+    .pregnant_care_div .content_sub_tit .content_download span {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .pregnant_care_area .content_txt .pregnant_care_img {
+        margin: 0 0 17px 7.4%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .pregnant_care_area .content_txt .pregnant_care_img {
+        margin: 0 0 15px 7.4%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .pregnant_care_area .content_txt .pregnant_care_img {
+        margin: 0 0 13px 7.4%;
+    }
+    .pregnant_care_div .content_sub_tit .content_download {
+        padding: 5px 11px 7px 50px;
+    }
+    .pregnant_care_div .content_sub_tit .content_download span {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .pregnant_care_div .content_sub_tit .content_download {
+        padding: 3px 9px 5px 45px;
+    }
+    .pregnant_care_div .content_sub_tit .content_download span {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .pregnant_care_area .content_txt .pregnant_care_img {
+        margin: 0 0 11px 7.4%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .pregnant_care_area .content_txt .pregnant_care_img {
+        margin: 0 0 9px 7.4%;
+    }
+    .pregnant_care_div .content_sub_tit .content_download {
+        padding: 1px 7px 3px 40px;
+    }
+    .pregnant_care_div .content_sub_tit .content_download span {
+        margin-right: 25px;
+    }
+}
+
+/************************************************
+
+					pregnant_care2
+
+*************************************************/
+.pregnant_care2_area .content_txt .content_txt_tit {
+    max-width: 245px;
+}
+.pregnant_care2_area .content_txt .pregnant_care2_img {
+    width: 92.6%;
+    height: auto;
+    max-width: 704px;
+    margin: 0 0 19px 7.4%;
+}
+.pregnant_care2_div .content_sub_tit .content_download {
+    padding: 9px 15px 11px 80px;
+}
+.pregnant_care2_div .content_sub_tit .content_download span {
+    margin-right: 65px;
+}
+
+@media screen and (max-width: 1800px) {
+    .pregnant_care2_div .content_sub_tit .content_download {
+        padding: 7px 13px 9px 75px;
+    }
+    .pregnant_care2_div .content_sub_tit .content_download span {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .pregnant_care2_area .content_txt .pregnant_care2_img {
+        margin: 0 0 17px 7.4%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .pregnant_care2_area .content_txt .pregnant_care2_img {
+        margin: 0 0 15px 7.4%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .pregnant_care2_area .content_txt .pregnant_care2_img {
+        margin: 0 0 13px 7.4%;
+    }
+    .pregnant_care2_div .content_sub_tit .content_download {
+        padding: 5px 11px 7px 70px;
+    }
+    .pregnant_care2_div .content_sub_tit .content_download span {
+        margin-right: 55px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .pregnant_care2_div .content_sub_tit .content_download {
+        padding: 3px 9px 5px 65px;
+    }
+    .pregnant_care2_div .content_sub_tit .content_download span {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .pregnant_care2_area .content_txt .pregnant_care2_img {
+        margin: 0 0 11px 7.4%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .pregnant_care2_area .content_txt .pregnant_care2_img {
+        margin: 0 0 9px 7.4%;
+    }
+    .pregnant_care2_div .content_sub_tit .content_download {
+        padding: 1px 7px 3px 60px;
+    }
+    .pregnant_care2_div .content_sub_tit .content_download span {
+        margin-right: 45px;
+    }
+}
+
+/************************************************
+
+					healing_camp
+
+*************************************************/
+.healing_camp_area .content_txt .content_txt_tit {
+    max-width: 319px;
+}
+.healing_camp_area .content_txt .healing_camp_table {
+    width: 92.5%;
+    height: auto;
+    margin: 0 0 19px 7.4%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #d7d7d7;
+}
+.healing_camp_area .content_txt .healing_camp_table thead tr {
+    width: 100%;
+    height: 66px;
+    background-color: #f9f9f9;
+}
+.healing_camp_area .content_txt .healing_camp_table tbody tr {
+    width: 100%;
+    height: 59px;
+    background-color: #ffffff;
+}
+.healing_camp_area .content_txt .healing_camp_table tr {
+    text-align: center;
+    font-size: 0.889em;
+    color: #3f3f3f;
+    letter-spacing: -0.025em;
+    line-height: 1.375em;
+    -webkit-transform: skew(-0.05deg);
+	-moz-transform: skew(-0.05deg);
+	-ms-transform: skew(-0.05deg);
+	transform: skew(-0.05deg);
+}
+.healing_camp_area .content_txt .healing_camp_table tr th {
+    vertical-align: middle;
+    /*border: 1px solid #d7d7d7;*/
+    border-left: 1px solid #d7d7d7;
+    padding: 10px;
+}
+.healing_camp_area .content_txt .healing_camp_table tr th:first-child {
+    border-left: none;
+}
+.healing_camp_area .content_txt .healing_camp_table tr td {
+    vertical-align: middle;
+    /*border: 1px solid #d7d7d7;*/
+    border-left: 1px solid #d7d7d7;
+    padding: 10px;
+}
+.healing_camp_area .content_txt .healing_camp_table tr td:first-child {
+    border-left: none;
+}
+.healing_camp_area .content_txt .healing_camp_img_area {
+    width: 93.6%;
+    height: auto;
+    margin: 0 0 19px 6.4%;
+    overflow: hidden;
+}
+.healing_camp_area .content_txt .healing_camp_img_area img {
+    width: 48%;
+    height: auto;
+    max-width: 352px;
+    margin: 0 0.4% 0 1%;
+}
+
+@media screen and (max-width: 1600px) {
+    .healing_camp_area .content_txt .healing_camp_table {
+        margin: 0 0 17px 7.4%;
+    }
+    .healing_camp_area .content_txt .healing_camp_table thead tr {
+        height: 61px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tbody tr {
+        height: 54px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tr th {
+        padding: 9px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tr td {
+        padding: 9px;
+    }
+    .healing_camp_area .content_txt .healing_camp_img_area {
+        margin: 0 0 17px 6.4%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .healing_camp_area .content_txt .healing_camp_table {
+        margin: 0 0 15px 7.4%;
+    }
+    .healing_camp_area .content_txt .healing_camp_table thead tr {
+        height: 56px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tbody tr {
+        height: 49px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tr th {
+        padding: 8px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tr td {
+        padding: 8px;
+    }
+    .healing_camp_area .content_txt .healing_camp_img_area {
+        margin: 0 0 15px 6.4%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .healing_camp_area .content_txt .healing_camp_table {
+        margin: 0 0 13px 7.4%;
+    }
+    .healing_camp_area .content_txt .healing_camp_table thead tr {
+        height: 51px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tbody tr {
+        height: 44px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tr th {
+        padding: 7px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tr td {
+        padding: 7px;
+    }
+    .healing_camp_area .content_txt .healing_camp_img_area {
+        margin: 0 0 13px 6.4%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .healing_camp_area .content_txt .healing_camp_table thead tr {
+        height: 46px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tbody tr {
+        height: 39px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tr th {
+        padding: 6px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tr td {
+        padding: 6px;
+    }
+    .healing_camp_area .content_txt .healing_camp_img_area {
+        margin: 0 0 11px 6.4%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .healing_camp_area .content_txt .healing_camp_table {
+        margin: 0 0 11px 7.4%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .healing_camp_area .content_txt .healing_camp_table {
+        margin: 0 0 9px 7.4%;
+    }
+    .healing_camp_area .content_txt .healing_camp_table thead tr {
+        height: 41px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tbody tr {
+        height: 34px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tr th {
+        padding: 5px;
+    }
+    .healing_camp_area .content_txt .healing_camp_table tr td {
+        padding: 5px;
+    }
+    .healing_camp_area .content_txt .healing_camp_img_area {
+        margin: 0 0 9px 6.4%;
+    }
+    .healing_camp_area .content_txt .healing_camp_img_area img {
+        margin: 0 0.3% 0 1%;
+    }
+}
+
+/************************************************
+
+					published_book
+
+*************************************************/
+.published_book_area>div.content_txt {
+    width: 100%;
+    margin: 0 0 82px !important;
+}
+.published_book_area>div.content_txt .published_book_list>li {
+    width: 21%;
+    height: auto;
+    float: left;
+    margin: 0 2%;
+    text-align: center;
+}
+.published_book_area>div.content_txt .published_book_list>li .content_img_tit {
+    width: auto;
+    height: 39px;
+    margin-right: 0;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+.published_book_area>div.content_txt .published_book_list>li .content_txt_tit {
+    width: 82%;
+    height: 39px;
+    display: inline-block;
+    background-color: #ffffff;
+    line-height: 39px;
+    padding: 0 10px;
+    font-size: 1.111em;
+    color: #f05a67;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    margin-bottom: 19px;
+    text-align: left;
+    float: left;
+    -webkit-transform: skew(-0.05deg);
+	-moz-transform: skew(-0.05deg);
+	-ms-transform: skew(-0.05deg);
+	transform: skew(-0.05deg);
+}
+.published_book_area>div.content_txt .published_book_list>li .published_book_img {
+    width: 100%;
+    height: auto;
+    max-width: 339px;
+    margin-bottom: 25px;
+}
+.published_book_area>div.content_txt .published_book_list>li .content_download {
+    width: 100%;
+    height: 49px;
+    max-width: 339px;
+    line-height: 19px;
+    border: 1px solid #b7b7b7;
+    padding: 14px 20px 14px 40px;
+    cursor: pointer;
+    font-family: 'NanumGothic', sans-serif;
+    text-align: center;
+    margin: 0 auto 35px;
+    -webkit-transform: skew(-0.05deg);
+	-moz-transform: skew(-0.05deg);
+	-ms-transform: skew(-0.05deg);
+	transform: skew(-0.05deg);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.published_book_area>div.content_txt .published_book_list>li .content_download span {
+    margin-right: 25px;
+    font-size: 1em;
+    color: #6a6a6a;
+    font-weight: 600;
+}
+.published_book_area>div.content_txt .published_book_list>li .content_download img {
+    width: auto;
+    height: 100%;
+    max-height: 31px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 1800px) {
+    .published_book_area>div.content_txt .published_book_list>li .content_download {
+        height: 44px;
+        line-height: 18px;
+        padding: 12px 18px 12px 35px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_download span {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .published_book_area>div.content_txt .published_book_list>li .content_img_tit {
+        height: 37px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_txt_tit {
+        height: 37px;
+        line-height: 37px;
+        padding: 0 9px;
+        margin-bottom: 17px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .published_book_img {
+        margin-bottom: 23px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_download {
+        height: 39px;
+        line-height: 17px;
+        padding: 10px 16px 10px 30px;
+         margin: 0 auto 33px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_download span {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .published_book_area>div.content_txt .published_book_list>li {
+        width: 22%;
+        margin: 0 1.5%;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_img_tit {
+        height: 35px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_txt_tit {
+        width: 81%;
+        height: 35px;
+        line-height: 35px;
+        padding: 0 8px;
+        margin-bottom: 15px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .published_book_img {
+        margin-bottom: 21px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_download {
+        margin: 0 auto 31px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_download span {
+        font-size: 0.889em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .published_book_area>div.content_txt .published_book_list>li .content_img_tit {
+        height: 33px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_txt_tit {
+        width: 80%;
+        height: 33px;
+        line-height: 33px;
+        padding: 0 7px;
+        margin-bottom: 13px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .published_book_img {
+        margin-bottom: 19px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_download {
+        height: 34px;
+        line-height: 16px;
+        padding: 8px 14px 8px 25px;
+        margin: 0 auto 29px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_download span {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .published_book_area>div.content_txt .published_book_list>li {
+        width: 29.3%;
+        margin: 0 2%;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_txt_tit {
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .published_book_area>div.content_txt .published_book_list>li {
+        width: 46%;
+        margin: 0 2%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .published_book_area>div.content_txt .published_book_list>li .content_img_tit {
+        height: 31px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_txt_tit {
+        height: 31px;
+        line-height: 31px;
+        padding: 0 6px;
+        margin-bottom: 11px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .published_book_img {
+        margin-bottom: 17px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_download {
+        margin: 0 auto 27px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .published_book_area>div.content_txt .published_book_list>li {
+        width: 96%;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_img_tit {
+        height: 29px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_txt_tit {
+        height: 29px;
+        line-height: 29px;
+        padding: 0 5px;
+        margin-bottom: 9px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .published_book_img {
+        margin-bottom: 15px;
+    }
+    .published_book_area>div.content_txt .published_book_list>li .content_download span {
+        margin-right: 5px;
+    }
+}
+

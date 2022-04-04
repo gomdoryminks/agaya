@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+/************************************************
+
+					setting
+
+*************************************************/
+.content_area .board_section {
+    width: 100%;
+    height: auto;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.content_area .board_section .board_table {
+    width: 100%;
+    height: auto;
+    margin-bottom: 82px;
+    font-family: 'NanumGothic', sans-serif;
+}
+.content_area .board_section .board_table thead tr {
+    width: 100%;
+    height: 60px;
+    line-height: 2.125em;
+    border-top: 6px solid #f05a67;
+    border-bottom: 1px solid #d0cac1;
+    font-size: 0.889em;
+    color: #3b3b3b;
+    font-weight: 600;
+    font-family: 'NanumSquare', sans-serif;
+    -webkit-transform: skew(-0.05deg);
+	-moz-transform: skew(-0.05deg);
+	-ms-transform: skew(-0.05deg);
+	transform: skew(-0.05deg);
+}
+.content_area .board_section .board_table tbody tr {
+    width: 100%;
+    height: 80px;
+    line-height: 2.125em;
+    border-bottom: 1px solid #d0cac1;
+    font-size: 0.889em;
+    color: #3b3b3b;
+    -webkit-transform: skew(-0.05deg);
+	-moz-transform: skew(-0.05deg);
+	-ms-transform: skew(-0.05deg);
+	transform: skew(-0.05deg);
+}
+.content_area .board_section .board_table tbody a {
+    color: #3b3b3b;
+}
+.content_area .board_section .board_table tr th {
+    vertical-align: middle;
+}
+.content_area .board_section .board_table tr td {
+    vertical-align: middle;
+}
+.content_area .board_section .board_table tr td:first-child + td {
+    padding-left: 32px;
+}
+.content_area .board_section .board_table tr td .board_table_tit {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+    padding: 0 10px;
+}
+.content_area .board_section .board_table tr td .board_table_tit img {
+    width: 30px;
+    height: auto;
+    vertical-align: baseline;
+    padding-right: 10px;
+}
+.content_area .board_section .board_table tr td .answer_tit {
+    text-indent: -34px;
+}
+.content_area .board_section .board_page {
+    font-family: 'NanumGothic', sans-serif;
+    -webkit-transform: skew(-0.05deg);
+	-moz-transform: skew(-0.05deg);
+	-ms-transform: skew(-0.05deg);
+	transform: skew(-0.05deg);
+}
+.content_area .board_section .board_page span {
+    padding: 0 20px;
+    font-size: 0.889em;
+    color: #3b3b3b;
+    line-height: 2.125em;
+}
+
+@media screen and (max-width: 1800px) {
+    .content_area .board_section .board_table {
+        margin-bottom: 72px;
+    }
+    .content_area .board_section .board_table thead tr {
+        height: 55px;
+        border-top: 5px solid #f05a67;
+    }
+    .content_area .board_section .board_table tbody tr {
+        height: 75px;
+    }
+    .content_area .board_section .board_table tr td:first-child + td {
+        padding-left: 28px;
+    }
+    .content_area .board_section .board_table tr td .board_table_tit img {
+        width: 26px;
+        padding-right: 8px;
+    }
+    .content_area .board_section .board_table tr td .answer_tit {
+        text-indent: -32px;
+    }
+    .content_area .board_section .board_page span {
+        padding: 0 18px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .content_area .board_section .board_table {
+        margin-bottom: 62px;
+    }
+    .content_area .board_section .board_table thead tr {
+        height: 50px;
+        border-top: 4px solid #f05a67;
+    }
+    .content_area .board_section .board_table tbody tr {
+        height: 70px;
+    }
+    .content_area .board_section .board_table tr td:first-child + td {
+        padding-left: 24px;
+    }
+    .content_area .board_section .board_table tr td .board_table_tit img {
+        width: 22px;
+        padding-right: 6px;
+    }
+    .content_area .board_section .board_table tr td .answer_tit {
+        text-indent: -28px;
+    }
+    .content_area .board_section .board_page span {
+        padding: 0 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content_area .board_section .board_table {
+        margin-bottom: 52px;
+    }
+    .content_area .board_section .board_table thead tr {
+        height: 45px;
+        border-top: 3px solid #f05a67;
+    }
+    .content_area .board_section .board_table tbody tr {
+        height: 65px;
+    }
+    .content_area .board_section .board_table tr td:first-child + td {
+        padding-left: 20px;
+    }
+    .content_area .board_section .board_table tr td .board_table_tit img {
+        width: 18px;
+        padding-right: 4px;
+    }
+    .content_area .board_section .board_table tr td .answer_tit {
+        text-indent: -24px;
+    }
+    .content_area .board_section .board_page span {
+        padding: 0 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content_area .board_section .board_table {
+        margin-bottom: 42px;
+    }
+    .content_area .board_section .board_table thead tr {
+        height: 40px;
+        border-top: 2px solid #f05a67;
+    }
+    .content_area .board_section .board_table tbody tr {
+        height: 60px;
+    }
+    .content_area .board_section .board_table tr td:first-child + td {
+        padding-left: 16px;
+    }
+    .content_area .board_section .board_table tr td .board_table_tit img {
+        width: 14px;
+        padding-right: 2px;
+    }
+    .content_area .board_section .board_table tr td .answer_tit {
+        text-indent: -20px;
+    }
+    .content_area .board_section .board_page span {
+        padding: 0 12px;
+    }
+}
+

@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/************************************************
+
+					setting
+
+*************************************************/
+.content_area .content_section .content_img img {
+    max-width: 737px;
+}
+
+/************************************************
+
+					health_center
+
+*************************************************/
+.health_center_area .content_txt .content_txt_tit {
+    max-width: 490px;
+    font-size: 1.111em;
+}
+
+/************************************************
+
+					self_help_group
+
+*************************************************/
+.self_help_group_area .content_txt .content_txt_tit {
+    max-width: 466px;
+}
+
+/************************************************
+
+					self_help_group2
+
+*************************************************/
+.self_help_group2_area .content_txt .content_txt_tit {
+    max-width: 466px;
+}
+
+/************************************************
+
+					online_advice
+
+*************************************************/
+.online_advice_area .content_txt .content_txt_tit {
+    max-width: 236px;
+}
+
+/************************************************
+
+					visit_advice
+
+*************************************************/
+.visit_advice_area .content_txt .content_txt_tit {
+    max-width: 236px;
+}
+.visit_advice_div .content_sub_tit .content_download {
+    padding: 9px 15px 11px 55px;
+}
+.visit_advice_div .content_sub_tit .content_download span {
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 1800px) {
+    .visit_advice_div .content_sub_tit .content_download {
+        padding: 7px 13px 9px 50px;
+    }
+    .visit_advice_div .content_sub_tit .content_download span {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .visit_advice_div .content_sub_tit .content_download {
+        padding: 5px 11px 7px 45px;
+    }
+    .visit_advice_div .content_sub_tit .content_download span {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .visit_advice_div .content_sub_tit .content_download {
+        padding: 3px 9px 5px 40px;
+    }
+    .visit_advice_div .content_sub_tit .content_download span {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .visit_advice_div .content_sub_tit .content_download {
+        padding: 1px 7px 3px 35px;
+    }
+    .visit_advice_div .content_sub_tit .content_download span {
+        margin-right: 20px;
+    }
+}
+
+/************************************************
+
+					volunteer_work
+
+*************************************************/
+.volunteer_work_area .content_txt .content_txt_tit {
+    max-width: 236px;
+}
+.volunteer_work_div .content_sub_tit .content_download {
+    padding: 9px 15px 11px 55px;
+}
+.volunteer_work_div .content_sub_tit .content_download span {
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 1800px) {
+    .volunteer_work_div .content_sub_tit .content_download {
+        padding: 7px 13px 9px 50px;
+    }
+    .volunteer_work_div .content_sub_tit .content_download span {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .volunteer_work_div .content_sub_tit .content_download {
+        padding: 5px 11px 7px 45px;
+    }
+    .volunteer_work_div .content_sub_tit .content_download span {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .volunteer_work_div .content_sub_tit .content_download {
+        padding: 3px 9px 5px 40px;
+    }
+    .volunteer_work_div .content_sub_tit .content_download span {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .volunteer_work_div .content_sub_tit .content_download {
+        padding: 1px 7px 3px 35px;
+    }
+    .volunteer_work_div .content_sub_tit .content_download span {
+        margin-right: 20px;
+    }
+}
+
+/************************************************
+
+					family2
+
+*************************************************/
+.family2_area .content_txt .content_txt_tit {
+    max-width: 236px;
+}
+
+/************************************************
+
+					one_night_two_days
+
+*************************************************/
+.one_night_two_days_area .content_txt .content_txt_tit {
+    max-width: 236px;
+}
+
