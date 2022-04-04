@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>자료실(뉴스)</title>
+		<meta name="description" content="자료실(뉴스)">
+		<meta name="author" content="minks">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<link rel="shortcut icon" href="../img/logo_favicon.ico">
+		<link rel="apple-touch-icon" href="../img/logo_favicon.ico">
+		
+		<link href="../css/reset.css" type="text/css" rel="stylesheet">
+		<link href="../css/font.css" type="text/css" rel="stylesheet">
+		<link href="../css/common.css" type="text/css" rel="stylesheet">
+		<link href="../css/main.css" type="text/css" rel="stylesheet">
+		<link href="../css/news.css" type="text/css" rel="stylesheet">
+		<link href="../css/swiper.min.css" type="text/css" rel="stylesheet">
+		
+		<!--[if lt IE 9]>
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/html5shiv.js"></script>
+		<![endif]-->
+		
+		<!--[if gte IE 9]>
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<![endif]-->
+		
+		<!--[if !IE]>--> 
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<!--<![endif]-->
+		
+		<script src="../js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="../js/function.js"></script>
+		<script src="../js/swiper.min.js"></script>
+	</head>
+
+	<body>
+		<div id="wrap">
+            <!-- header -->
+		    <header class="header">
+                <h1 class="not_view">header</h1>
+                
+                <div class="center_ct">
+                    <div class="header_left">
+                        <a href="../index.html"><img src="../img/top_logo2.png" alt="로고"></a>
+                    </div>
+                    
+                    <!-- nav -->
+                    <nav class="nav">
+                        <h2 class="not_view">nav</h2>
+                        
+                        <ul class="top_menu cf">
+                            <li class="top_menu_item1">기관소개</li>
+                            <li class="top_menu_item2">사업소개</li>
+                            <li class="top_menu_item3">후원안내</li>
+                            <li class="top_menu_item4">후원신청</li>
+                            <li class="top_menu_item5">협회소식</li>
+                        </ul>
+                        
+                        <!-- aside -->
+                        <aside class="aside">
+                            <h3 class="not_view">aside</h3>
+
+                            <div class="center_ct">
+                                <div class="top_menu_left">
+                                    <img src="../img/menu_left_img.png" alt="메뉴왼쪽이미지">
+                                </div>
+
+                                <div class="top_menu_item top_menu_item1 cf" nav_type="top_menu_item1">
+                                    <ul class="top_sub_menu cf">
+                                        <li><a href="../institution/story.html">난가연이야기</a></li>
+                                        <li><a href="../institution/greeting.html">인사말</a></li>
+                                        <li><a href="../institution/purpose.html">설립취지</a></li>
+                                    </ul>
+                                    <ul class="top_sub_menu cf">
+                                        <li><a href="../institution/history.html">연혁</a></li>
+                                        <li><a href="../institution/organization.html">조직도</a></li>
+                                        <li><a href="../institution/record.html">주요공익실적</a></li>
+                                    </ul>
+                                    <ul class="top_sub_menu cf">
+                                        <li><a href="../institution/logo.html">로고</a></li>
+                                        <li><a href="../institution/directions.html">오시는길</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="top_menu_item top_menu_item2 cf" nav_type="top_menu_item2">
+                                    <ul class="top_sub_menu cf">
+                                        <li><a href="../introduction/family.html">난임가족의 날</a></li>
+                                        <li><a href="../introduction/pregnant_care.html">아가야보듬이(체외수정)</a></li>
+                                        <li><a href="../introduction/pregnant_care2.html">아가야보듬이(한방)</a></li>
+                                        <li><a href="../introduction/success_memoirs.html">된된꼭성공수기</a></li>
+                                        <li><a href="../introduction/counseling_center.html">상담센터</a></li>
+                                    </ul>
+                                    <ul class="top_sub_menu cf">
+                                        <li><a href="../introduction/nutrient_support.html">미세영양소지원</a></li>
+                                        <li><a href="../introduction/healing_camp.html">함소공 1박2일힐링캠프</a></li>
+                                        <li><a href="../introduction/education.html">교육</a></li>
+                                        <li><a href="../introduction/combine_management.html">통합관리프로그램</a></li>
+                                        <li><a href="../introduction/campaign.html">인식개선캠페인</a></li>
+                                    </ul>
+                                    <ul class="top_sub_menu cf">
+                                        <li><a href="../introduction/consignment_business.html">공립어린이집위탁사업</a></li>
+                                        <li><a href="../introduction/published_book.html">책자발행</a></li>
+                                        <li><a href="../introduction/etc_business.html">기타사업</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="top_menu_item top_menu_item3 cf" nav_type="top_menu_item3">
+                                    <ul class="top_sub_menu cf">
+                                        <li><a href="../support/support.html">후원하기</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="top_menu_item top_menu_item4 cf" nav_type="top_menu_item4">
+                                    <ul class="top_sub_menu cf">
+                                        <li class="top_sub_menu_tit">교육</li>
+                                        <li><a href="../application/self_help_group.html">자조모임(DD맘)</a></li>
+                                        <li><a href="../application/self_help_group2.html">자조모임(지역)</a></li>
+                                        <li><a href="../application/health_center.html">보건소교육</a></li>
+                                    </ul>
+                                    <ul class="top_sub_menu cf">
+                                        <li class="top_sub_menu_tit">행사</li>
+                                        <li><a href="../application/one_night_two_days.html">함소공1박2일</a></li>
+                                        <li><a href="../application/family2.html">난임가족의날</a></li>
+                                    </ul>
+                                    <ul class="top_sub_menu cf">
+                                        <li class="top_sub_menu_tit">상담</li>
+                                        <li><a href="../application/visit_advice.html">방문상담</a></li>
+                                        <li><a href="../application/online_advice.html">온라인상담</a></li>
+                                    </ul>
+                                    <ul class="top_sub_menu cf">
+                                        <li class="top_sub_menu_tit">자원봉사</li>
+                                        <li><a href="../application/volunteer_work.html">자원봉사</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="top_menu_item top_menu_item5 cf" nav_type="top_menu_item5">
+                                    <ul class="top_sub_menu cf">
+                                        <li><a href="notice.html">공지사항</a></li>
+                                    </ul>
+                                    <ul class="top_sub_menu cf">
+                                        <li><a href="reference_room.html">자료실(뉴스)</a></li>
+                                    </ul>
+                                    <ul class="top_sub_menu cf">
+                                        <li><a href="faq.html">FAQ</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="top_menu_right">
+                                    <img src="../img/menu_right_img.png" alt="메뉴오른쪽이미지">
+                                    <img src="../img/menu_right_img2.png" alt="메뉴오른쪽이미지2">
+                                </div>
+                            </div>
+                        </aside>
+                    </nav>
+                    
+                    <div class="header_right">
+                        <a href="../login.html">로그인</a>
+                        <a href="../register_agreement.html">회원가입</a>
+                        <div class="mb_btn" onclick="location.href='../sitemap.html';">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+			
+			<!-- mobile menu -->
+			<div class="mb_area">
+			    <div class="header_center">
+					<a href="../index.html"><img src="../img/top_logo2.png" alt="로고"></a>
+				</div>
+			    
+				<div class="mb_btn">
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+					<div class="line line3"></div>
+				</div>
+				
+				<div class="mb_menu"></div>
+				
+				<div class="mb_box">
+				    <div class="header_menu_area">
+                        <ul class="header_menu cf">
+                            <li><a href="../login.html">로그인</a></li>
+                            <li><a href="../register_agreement.html">회원가입</a></li>
+                            <li><a href="../sitemap.html">사이트맵</a></li>
+                        </ul>
+                    </div>
+			
+					<ul class="nav_menu cf">
+						<li>
+						    <div class="nav_menu_tit">
+                                <img src="../img/title_icon.png" alt="큰메뉴">
+							    <p>기관소개</p>
+                            </div>
+							<ul class="nav_sub_menu cf">
+								<li><a href="../institution/story.html">난가연이야기</a></li>
+                                <li><a href="../institution/greeting.html">인사말</a></li>
+                                <li><a href="../institution/purpose.html">설립취지</a></li>
+                                <li><a href="../institution/history.html">연혁</a></li>
+                                <li><a href="../institution/organization.html">조직도</a></li>
+                                <li><a href="../institution/record.html">주요공익실적</a></li>
+                                <li><a href="../institution/logo.html">로고</a></li>
+                                <li><a href="../institution/directions.html">오시는길</a></li>
+							</ul>
+						</li>
+						<li>
+						    <div class="nav_menu_tit">
+                                <img src="../img/title_icon.png" alt="큰메뉴">
+							    <p>사업소개</p>
+                            </div>
+							<ul class="nav_sub_menu cf">
+								<li><a href="../introduction/family.html">난임가족의 날</a></li>
+                                <li><a href="../introduction/pregnant_care.html">아가야보듬이(체외수정)</a></li>
+                                <li><a href="../introduction/pregnant_care2.html">아가야보듬이(한방)</a></li>
+                                <li><a href="../introduction/success_memoirs.html">된된꼭성공수기</a></li>
+                                <li><a href="../introduction/counseling_center.html">상담센터</a></li>
+                                <li><a href="../introduction/nutrient_support.html">미세영양소지원</a></li>
+                                <li><a href="../introduction/healing_camp.html">함소공 1박2일힐링캠프</a></li>
+                                <li><a href="../introduction/education.html">교육</a></li>
+                                <li><a href="../introduction/combine_management.html">통합관리프로그램</a></li>
+                                <li><a href="../introduction/campaign.html">인식개선캠페인</a></li>
+                                <li><a href="../introduction/consignment_business.html">공립어린이집위탁사업</a></li>
+                                <li><a href="../introduction/published_book.html">책자발행</a></li>
+                                <li><a href="../introduction/etc_business.html">기타사업</a></li>
+							</ul>
+						</li>
+						<li>
+						    <div class="nav_menu_tit">
+                                <img src="../img/title_icon.png" alt="큰메뉴">
+							    <p>후원안내</p>
+                            </div>
+							<ul class="nav_sub_menu cf">
+								<li><a href="../support/support.html">후원하기</a></li>
+							</ul>
+						</li>
+						<li>
+						    <div class="nav_menu_tit">
+                                <img src="../img/title_icon.png" alt="큰메뉴">
+							    <p>후원신청</p>
+                            </div>
+							<ul class="nav_sub_menu cf">
+								<li>
+                                    <p class="nav_menu_tit">교육</p>
+                                    <ul class="nav_sub_menu cf">
+                                        <li><a href="../application/self_help_group.html">자조모임(DD맘)</a></li>
+                                        <li><a href="../application/self_help_group2.html">자조모임(지역)</a></li>
+                                        <li><a href="../application/health_center.html">보건소교육</a></li>
+                                    </ul>
+								</li>
+								<li>
+                                    <p class="nav_menu_tit">행사</p>
+                                    <ul class="nav_sub_menu cf">
+                                        <li><a href="../application/one_night_two_days.html">함소공1박2일</a></li>
+                                        <li><a href="../application/family2.html">난임가족의날</a></li>
+                                    </ul>
+								</li>
+								<li>
+                                    <p class="nav_menu_tit">상담</p>
+                                    <ul class="nav_sub_menu cf">
+                                        <li><a href="../application/visit_advice.html">방문상담</a></li>
+                                        <li><a href="../application/online_advice.html">온라인상담</a></li>
+                                    </ul>
+								</li>
+								<li>
+                                    <p class="nav_menu_tit">자원봉사</p>
+                                    <ul class="nav_sub_menu cf">
+                                        <li><a href="../application/volunteer_work.html">자원봉사</a></li>
+                                    </ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+						    <div class="nav_menu_tit">
+                                <img src="../img/title_icon.png" alt="큰메뉴">
+							    <p>협회소식</p>
+                            </div>
+							<ul class="nav_sub_menu cf">
+								<li><a href="notice.html">공지사항</a></li>
+								<li><a href="reference_room.html">자료실(뉴스)</a></li>
+								<li><a href="faq.html">FAQ</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="fk_header"></div>
+			
+			<!-- content -->
+			<div class="content_area center_ct2">
+                <div class="content_tit">
+                    <p>자료실(뉴스)</p>
+                    <div class="line"></div>
+                </div>
+                
+                <div class="content_sub_tit">
+                    <p><a href="index.html">HOME</a> &lt; 소식 &lt; <a href="reference_room.html" class="page_tit">자료실(뉴스)</a></p>
+                </div>
+                
+                <section class="reference_room_area board_section">
+                    <table class="board_table">
+                        <colgroup>
+                            <col width="10%">
+                            <col width="60%">
+                            <col width="15%">
+                            <col width="15%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>번호</th>
+                                <th>제목</th>
+                                <th>등록일</th>
+                                <th>조회수</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10</td>
+                                <td>
+                                    <div class="board_table_tit">
+                                        <a href="#">2020년 상반기 난임 부부 신청 자료</a>
+                                    </div>
+                                </td>
+                                <td>2019.12.20</td>
+                                <td>460</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>
+                                    <div class="board_table_tit">
+                                        <a href="#">2020년 상반기 난임 부부 신청 자료</a>
+                                    </div>
+                                </td>
+                                <td>2019.12.20</td>
+                                <td>460</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>
+                                    <div class="board_table_tit">
+                                        <a href="#">2020년 상반기 난임 부부 신청 자료</a>
+                                    </div>
+                                </td>
+                                <td>2019.12.20</td>
+                                <td>460</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    <div class="board_table_tit">
+                                        <a href="#">2020년 상반기 난임 부부 신청 자료</a>
+                                    </div>
+                                </td>
+                                <td>2019.12.20</td>
+                                <td>460</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>
+                                    <div class="board_table_tit">
+                                        <a href="#">2020년 상반기 난임 부부 신청 자료</a>
+                                    </div>
+                                </td>
+                                <td>2019.12.20</td>
+                                <td>460</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="board_page">
+                        <a href="#"><img src="../img/news/page_prev_arrow.png" alt="이전페이지"></a>
+                        <a href="#"><span>2</span></a>
+                        <a href="#"><img src="../img/news/page_next_arrow.png" alt="다음페이지"></a>
+                    </div>
+                </section>
+            </div>
+			
+			<!-- footer -->
+			<footer class="footer">
+				<h1 class="not_view">footer</h1>
+				
+				<div class="footer_icon">
+                    <div class="center_ct cf">
+                        <div class="footer_icon_left">
+                            <div class="footer_icon_left_area">
+                                <img src="../img/counseling_time_icon.png" alt="상담시간">
+                                <span class="footer_icon_left_tit">상담시간</span>
+                                <span class="footer_icon_left_cont"> : 평일 AM 08:30 ~ PM 06:00<br class="br_view"> / 토 AM 08:30 ~ PM 12:30</span>
+                            </div>
+                            <div class="footer_icon_left_area">
+                                <img src="../img/directions_icon.png" alt="오시는길">
+                                <span class="footer_icon_left_tit">오시는길</span>
+                                <span class="footer_icon_left_cont"> : 05380 서울시 강동구 천호대로<br class="br_view"> 1078, 210호 (씨제이나인파크)</span>
+                            </div>
+                        </div>
+                        <div class="footer_icon_right">
+                            <ul class="sns_icon cf">
+                                <li><a href="#"><img src="../img/sns_icon.png" alt="sns아이콘"></a></li>
+                                <li><a href="#"><img src="../img/sns_icon2.png" alt="sns아이콘2"></a></li>
+                                <li><a href="#"><img src="../img/sns_icon3.png" alt="sns아이콘3"></a></li>
+                                <li><a href="#"><img src="../img/sns_icon4.png" alt="sns아이콘4"></a></li>
+                                <li><a href="#"><img src="../img/sns_icon5.png" alt="sns아이콘5"></a></li>
+                                <li><a href="#"><img src="../img/sns_icon6.png" alt="sns아이콘6"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer_logo">
+                    <div class="center_ct">
+                        <div class="footer_logo_top cf">
+                            <div class="footer_logo_top_img">
+                                <img src="../img/bottom_logo.png" alt="하단로고">
+                            </div>
+                            <select name="">
+                                <option value=""><a href="#">협력병원 및 기업</a></option>
+                            </select>
+                        </div>
+                        
+                        <ul class="footer_logo_middle cf">
+                            <li><a href="#">난임가족연합회 소개</a></li>
+                            <li><a href="#">제휴 제안</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">개인정보 취급방침</a></li>
+                            <li><a href="#">이메일수집거부</a></li>
+                        </ul>
+                        
+                        <div class="footer_logo_bottom">
+                            <span>대표전화  02-3431-3382</span><br class="br_view">
+                            <span>난임상담전화  1899-1806</span>
+                            <span>fax  02-3431-3383</span><br>
+                            <span>주소  05380 서울시 강동구 천호대로 1078, 210호 (씨제이나인파크)</span><br>
+                            <span>copyright ⓒ 2012 (사)한국난임가족연합회 ALL Rights Reserved.</span><br class="br_view">
+                            <span>E-mail : agaya505@naver.com</span>
+                        </div>
+                    </div>
+                </div>
+			</footer>
+		</div>
+	</body>
+</html>
